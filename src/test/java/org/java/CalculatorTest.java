@@ -2,7 +2,6 @@ package org.java;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import org.java.exceptions.InvalidDivisionException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,7 +22,7 @@ public class CalculatorTest {
 		
 		float sum = num1 + num2;
 		
-		assertEquals(sum, num1 + num2, "Correct sum operation");
+		assertEquals(sum, num1 + num2, "Incorrect sum operation");
 	}
 	
 	@Test
@@ -33,7 +32,7 @@ public class CalculatorTest {
 		
 		float sum = num1 - num2;
 		
-		assertEquals(sum, num1 - num2, "Correct sub operation");
+		assertEquals(sum, num1 - num2, "Incorrect sub operation");
 	}
 	
 	@Test
@@ -43,7 +42,7 @@ public class CalculatorTest {
 		
 		float sum = num1 * num2;
 		
-		assertEquals(sum, num1 * num2, "Correct mul operation");
+		assertEquals(sum, num1 * num2, "Incorrect mul operation");
 	}
 	
 	@Test
@@ -53,7 +52,7 @@ public class CalculatorTest {
 		
 		float sum = num1 / num2;
 		
-		assertEquals(sum, num1 / num2, "Correct div operation");
+		assertEquals(sum, num1 / num2, "Incorrect div operation");
 	}
 	
 	@Test
